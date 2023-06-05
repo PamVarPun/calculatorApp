@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     fun onEqualClick(view: View) {
 
         OnEqual()
-        binding.tvData.text = binding.tvResult.text.toString().drop(1)
+        binding.tvData.text = binding.tvResult.text.toString()
 
     }
 
